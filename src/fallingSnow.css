@@ -1,0 +1,110 @@
+.fallingSnow {
+ color: #fff;
+ /* font-size: 20px; */
+ position: absolute;
+ animation: fall 10s linear forwards;
+ top: -10px;
+}
+
+
+.snow {
+ color: #fff;
+ top: 12px;
+ position: absolute;
+ bottom: 0;
+ animation: mymove 5s infinite
+  /* top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0; */
+  /* background: url(); */
+  /* mix-blend-mode: screen;
+ */
+}
+
+.snow1 {
+ animation-timing-function: linear;
+}
+
+
+.snow2 {
+ animation-timing-function: linear;
+}
+
+.snow3 {
+ animation-timing-function: linear;
+ /* animation: fall 15s linear; */
+}
+
+@keyframes mymove {
+ 0% {
+  background-position: 0 0;
+  filter: blur(0);
+  top: 300px;
+ }
+
+ 25% {
+  filter: blur(2px);
+ }
+
+ 50% {
+  filter: blur(8px);
+ }
+
+ 75% {
+  filter: blur(20px);
+ }
+
+ 100% {
+  background-position: 300px 300px;
+  filter: blur(30px);
+  /* transform: scale(2); */
+  top: 500px;
+ }
+}
+
+@keyframes snow1 {
+ 0% {
+  background-position: 0 0;
+  filter: blur(2px);
+  top: 12px;
+  /* transform: scale(1) rotate3d(-1, 1, 0, 0deg); */
+ }
+
+ 100% {
+  background-position: 300px 300px;
+  filter: blur(2px);
+  bottom: 300px;
+ }
+}
+
+@keyframes snow2 {
+ 0% {
+  background-position: 0 0;
+  filter: blur(2px);
+ }
+
+ 100% {
+  background-position: 300px 300px;
+  filter: blur(2px);
+ }
+}
+
+@keyframes snow3 {
+ 0% {
+  background-position: 0 0;
+  transform: scale(5);
+ }
+
+ 100% {
+  background-position: 0 300px;
+  transform: scale(5) rotate3d(-1, 1, 0, 0deg);
+ }
+}
+
+@keyframes fall {
+ to {
+  /* background-position: 0 300px; */
+  transform: translateY(105vh)
+ }
+}

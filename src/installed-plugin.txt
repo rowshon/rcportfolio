@@ -1,0 +1,10 @@
+npm i react-snowfall
+npm install react react-dom
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+npm install react-slick slick-carousel react-icons
+npm i react-vertical-timeline-component
+npm install react-clip-path
+npm install gh-pages - save-dev
+$ npm install cors
+npm install moment --save
