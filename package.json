@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://rowshon.github.io",
-  "proxy": "http://localhost:3001",
+  "proxy": "https://localhost:3001",
   "dependencies": {
     "-": "^0.0.1",
     "@emotion/react": "^11.10.4",
